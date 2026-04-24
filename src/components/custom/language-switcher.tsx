@@ -41,11 +41,11 @@ export function LanguageSwitcher() {
         render={
           <Button
             variant="ghost"
-            size="icon"
+            size="icon-lg"
             disabled={isPending}
             aria-label="Change language"
           >
-            <Globe />
+            <Globe className="size-5" />
           </Button>
         }
       />

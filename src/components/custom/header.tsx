@@ -7,14 +7,21 @@ export function Header() {
   return (
     <header className="fixed top-0 inset-x-0 z-50 h-16">
       <Container className="flex h-full items-center justify-between">
-        <Link href="/" aria-label="Home" className="flex items-center">
+        <Link
+          href="/"
+          aria-label="KaiynCapital"
+          className="flex items-center gap-2"
+        >
           <Image
             src="/img/icon-light.svg"
-            alt="Kaiyn"
+            alt=""
             width={32}
             height={32}
             priority
           />
+          <span className="hidden sm:inline text-lg font-semibold tracking-tight">
+            Kaiyn<span className="text-muted-foreground">Capital</span>
+          </span>
         </Link>
         <LanguageSwitcher />
       </Container>
