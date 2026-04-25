@@ -15,6 +15,20 @@ const exchanges = [
   "weex",
 ] as const;
 
+const mobileRow1 = exchanges.slice(0, 6);
+const mobileRow2 = exchanges.slice(6);
+
+function ExchangeLogo({ name }: { name: string }) {
+  return (
+    // biome-ignore lint/performance/noImgElement: logos have varied aspect ratios; next/image's required width/height props trigger spurious "width or height modified" warnings here.
+    <img
+      src={`/img/exchange-logo/${name}.png`}
+      alt={name}
+      className="h-8 w-auto opacity-70 brightness-0 invert"
+    />
+  );
+}
+
 export function ExchangeLogosMarquee() {
   const t = useTranslations("HomePage");
 
@@ -35,17 +49,30 @@ export function ExchangeLogosMarquee() {
             "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
         }}
       >
-        <Marquee pauseOnHover className="[--duration:40s] [--gap:3rem]">
+        <Marquee
+          pauseOnHover
+          className="hidden [--duration:40s] [--gap:3rem] md:flex"
+        >
           {exchanges.map((name) => (
-            // biome-ignore lint/performance/noImgElement: logos have varied aspect ratios; next/image's required width/height props trigger spurious "width or height modified" warnings here.
-            <img
-              key={name}
-              src={`/img/exchange-logo/${name}.png`}
-              alt={name}
-              className="h-8 w-auto opacity-70 brightness-0 invert"
-            />
+            <ExchangeLogo key={name} name={name} />
           ))}
         </Marquee>
+        <div className="flex flex-col gap-4 md:hidden">
+          <Marquee pauseOnHover className="[--duration:30s] [--gap:2rem]">
+            {mobileRow1.map((name) => (
+              <ExchangeLogo key={name} name={name} />
+            ))}
+          </Marquee>
+          <Marquee
+            reverse
+            pauseOnHover
+            className="[--duration:30s] [--gap:2rem]"
+          >
+            {mobileRow2.map((name) => (
+              <ExchangeLogo key={name} name={name} />
+            ))}
+          </Marquee>
+        </div>
       </div>
     </section>
   );
