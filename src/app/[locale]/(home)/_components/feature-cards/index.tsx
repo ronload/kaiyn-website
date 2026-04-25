@@ -1,11 +1,11 @@
 import { useTranslations } from "next-intl";
-import { AnimatedMessagesBackground } from "@/components/custom/animated-messages";
-import { AnimatedNotificationsBackground } from "@/components/custom/animated-notifications";
-import { BentoCard } from "@/components/custom/bento-card";
-import { ConceptCardsMarqueeBackground } from "@/components/custom/concept-cards-marquee";
-import { Container } from "@/components/custom/container";
+import { Container } from "@/components/layout/container";
+import { AnimatedMessagesBackground } from "./animated-messages";
+import { AnimatedNotificationsBackground } from "./animated-notifications";
+import { BentoCard } from "./bento-card";
+import { ConceptCardsMarqueeBackground } from "./concept-cards-marquee";
 
-export function FeatureCardsSection() {
+export function FeatureCards() {
   const t = useTranslations("HomePage");
 
   return (

@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { Container } from "@/components/custom/container";
-import { LanguageSwitcher } from "@/components/custom/language-switcher";
+import { Container } from "@/components/layout/container";
+import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { Link } from "@/i18n/navigation";
 
 export function Header() {

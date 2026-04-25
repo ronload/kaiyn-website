@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
-import { ConceptCard } from "@/components/custom/concept-card";
 import { Marquee } from "@/components/ui/marquee";
+import { ConceptCard } from "./concept-card";
 
 const conceptKeys = [
   "marketStructure",

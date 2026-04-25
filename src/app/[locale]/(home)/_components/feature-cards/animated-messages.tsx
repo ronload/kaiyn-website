@@ -4,8 +4,8 @@ import { useInView } from "motion/react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useRef } from "react";
-import { AnimatedMessageList } from "@/components/custom/animated-message-list";
 import { cn } from "@/lib/utils";
+import { AnimatedMessageList } from "./animated-message-list";
 
 type Direction = "long" | "short";
 

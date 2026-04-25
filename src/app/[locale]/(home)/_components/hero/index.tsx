@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
-import { CommunityAvatars } from "@/components/custom/community-avatars";
-import { JoinCommunityButton } from "@/components/custom/join-community-button";
+import { CommunityAvatars } from "./community-avatars";
+import { JoinCommunityButton } from "./join-community-button";
 
-export default function HeroSection() {
+export default function Hero() {
   const t = useTranslations("HomePage");
   const locale = useLocale();
   const isEn = locale === "en";
