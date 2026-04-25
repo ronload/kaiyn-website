@@ -12,6 +12,10 @@
       "telegramSignal": {
         "title": "Telegram 訊號",
         "description": "即時交易訊號通知，領先每一次市場波動。"
+      },
+      "strategyGroup": {
+        "title": "策略社群",
+        "description": "與其他交易者校準交易方向，獲取經驗證的進出場策略。"
       }
     }
   }

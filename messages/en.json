@@ -12,6 +12,10 @@
       "telegramSignal": {
         "title": "Telegram Signal",
         "description": "Instant trading signal alerts. Stay ahead of every market move."
+      },
+      "strategyGroup": {
+        "title": "Strategy group",
+        "description": "Align your trading bias with other traders. Get proven entry and exit strategies."
       }
     }
   }

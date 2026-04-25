@@ -23,9 +23,9 @@ export function FeatureCardsSection() {
             background={<AnimatedNotificationsBackground />}
           />
           <BentoCard
-            title="Card title 2"
-            description="Card description 2"
-            href="#"
+            title={t("cards.strategyGroup.title")}
+            description={t("cards.strategyGroup.description")}
+            href="https://t.me/kaiyncapital"
             cta={t("learnMore")}
             background={<AnimatedMessagesBackground />}
           />
