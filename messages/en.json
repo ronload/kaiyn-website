@@ -6,7 +6,13 @@
     "joinCommunity": "Join our community",
     "trustedBy": "Trusted by 3000+ users",
     "bullishSignal": "Bullish Signal",
+    "symbol": "Symbol",
+    "direction": "Direction",
+    "long": "Long",
+    "short": "Short",
     "entry": "Entry",
+    "takeProfit": "Take Profit",
+    "stopLoss": "Stop Loss",
     "learnMore": "Learn more",
     "cards": {
       "telegramSignal": {

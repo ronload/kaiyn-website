@@ -6,7 +6,13 @@
     "joinCommunity": "加入我们的社区",
     "trustedBy": "3000+ 位用户信赖",
     "bullishSignal": "看涨讯号",
-    "entry": "进场点位",
+    "symbol": "标的",
+    "direction": "方向",
+    "long": "多",
+    "short": "空",
+    "entry": "进场",
+    "takeProfit": "止盈",
+    "stopLoss": "止损",
     "learnMore": "了解更多",
     "cards": {
       "telegramSignal": {
