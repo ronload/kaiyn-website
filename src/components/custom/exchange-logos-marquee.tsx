@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { Marquee } from "@/components/ui/marquee";
 
 const exchanges = [
@@ -15,8 +16,16 @@ const exchanges = [
 ] as const;
 
 export function ExchangeLogosMarquee() {
+  const t = useTranslations("HomePage");
+
   return (
     <section className="bg-black py-12 md:py-16">
+      <h2 className="text-center font-semibold text-xl text-white/80 md:text-3xl">
+        {t("exchangesTitle")}
+      </h2>
+      <p className="mb-10 text-center text-xl text-white/60 md:mb-12 md:text-3xl">
+        {t("exchangesDescription")}
+      </p>
       <div
         className="relative"
         style={{
