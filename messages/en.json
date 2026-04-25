@@ -22,6 +22,44 @@
       "strategyGroup": {
         "title": "Strategy Group",
         "description": "Align your trading bias with other traders. Get proven entry and exit strategies."
+      },
+      "tradingTutorial": {
+        "title": "Trading Tutorial",
+        "description": "Learn ICT/SMC, Price Action, and proven methods. Elevate your trading to professional level."
+      },
+      "concepts": {
+        "marketStructure": {
+          "title": "Market Structure",
+          "description": "A bullish market structure consists of consecutive Higher Highs (HH) and Higher Lows (HL), while a bearish market structure consists of Lower Highs (LH) and Lower Lows (LL), representing buyer-dominated and seller-dominated markets respectively. When a swing high or low is broken, it is called a Market Structure Break (MSB/BOS), signaling trend continuation; when the previous high before the most recent LL is broken, it is called a Market Structure Shift (MSS/CHOCH), signaling a trend reversal. A high-quality MSS should be accompanied simultaneously by a liquidity sweep, a significant Displacement, and the formation of an Imbalance zone."
+        },
+        "liquidity": {
+          "title": "Liquidity",
+          "description": "Institutional entries require large order matching, making swing highs/lows and equal highs/lows (EQH/EQL) the most common liquidity accumulation zones where smart money completes order flow exchange with retail traders. A Liquidity Sweep refers to price breaking through a liquidity zone and then rapidly retracing — this is the starting point of every bullish or bearish move, and chasing entries at the moment of the break is a mistake. After sweeping liquidity, price delivery is classified as either Low Resistance Liquidity Run (LRLR, smooth price delivery) or High Resistance Liquidity Run (HRLR, choppy and obstructed), and a Change in State of Delivery (CISD) is another key signal for identifying reversals."
+        },
+        "imbalance": {
+          "title": "Imbalance",
+          "description": "When smart money drives a large displacement with significant capital, some limit orders cannot be filled efficiently, creating a liquidity imbalance zone that the algorithm will guide price back to in the future for rebalancing. In three consecutive candles, if the wicks of the first and third candles do not fully overlap, the middle area is a Fair Value Gap (FVG); if an FVG is fully consumed without being rebalanced, it transforms into an Inverse Fair Value Gap (IFVG), which carries stronger significance. Two opposing FVGs overlapping form a Balanced Price Range (BPR), and price should react quickly upon contact; when an FVG retracement fills no more than 50% before reversing, it is called an IOFED, indicating an exceptionally strong market condition."
+        },
+        "supplyAndDemand": {
+          "title": "Supply and Demand",
+          "description": "An Order Block (OB) is a zone where institutions place large-scale orders, identified as the last opposing candle before a significant displacement; a high-quality OB must simultaneously satisfy three conditions: a liquidity sweep, a significant Displacement that produces an FVG, and a completed MSS. When an OB forms an MSS but is subsequently broken in the opposite direction, the order flow reverses and that zone becomes a Breaker Block; if an OB is engulfed directly without first forming an MSS, it becomes a Mitigation Block. A Propulsion Block represents smart money re-advancing after retesting an OB, and price should not break its midpoint (MT); a Rejection Block and a Reclaimed Block represent strong exit intent and the repurposing of an OB following a market structure reversal, respectively."
+        },
+        "ipda": {
+          "title": "Interbank Price Delivery Algorithm",
+          "description": "Under IPDA control, price delivery exists in only four states: Consolidation, Expansion, Retracement, and Reversal, and all price action originates from a ranging phase. During Consolidation, look for long entries when Discount zones or SSL are swept, and short entries when Premium zones or BSL are swept; the Expansion phase represents market maker repricing, while Retracement sees price refilling FVGs before continuing in the delivery direction. A Reversal requires waiting for a HTF POI to be reached and confirmed by an MSS/CISD — attempting to trade a trend change before price reaches a key higher-timeframe level is a low-probability approach."
+        },
+        "dealingRange": {
+          "title": "Dealing Range",
+          "description": "Any meaningful Swing High and Swing Low can define a dealing range: above the equilibrium midpoint (EQ) is the Premium zone and below is the Discount zone — seek shorts in Premium and longs in Discount. OBs, FVGs, and liquidity within the range are collectively called PDA (Premium Discount Arrays); External Range Liquidity (ERL) refers to old highs and lows, Internal Range Liquidity (IRL) refers to OBs and FVGs, and price perpetually delivers between ERL and IRL. The current PDA that price is attracted to is called the Draw on Liquidity (DOL) and is the core basis for all trading decisions; the Optimal Trade Entry (OTE) falls between the 0.62 and 0.79 Fibonacci levels, offering a favorable risk-to-reward ratio but must be used in confluence with other concepts."
+        },
+        "advancedMarketStructure": {
+          "title": "Advanced Market Structure",
+          "description": "Top-Down Analysis requires establishing directional Bias and DOL on the Higher Time Frame (HTF), identifying trade setups on the Medium Time Frame (MTF), and refining entries on the Lower Time Frame (LTF) — each level serves a distinct purpose. The three-phase model PO3 (Power of Three) is the most foundational concept in ICT/SMC, consisting of Accumulation, Manipulation, and Distribution; after the manipulation leg sweeps liquidity, price delivers rapidly in the true direction, with Standard Deviation (STDV) levels of -2 to -2.5 serving as retracement targets and -3.5 to -4 as reversal targets. The Market Maker Model (MMXM) describes the complete LTF manifestation of HTF IRL-to-ERL delivery — all LTF price action ultimately serves the HTF, and when LTF price reaches an HTF PDA, the LTF delivery direction will fully reverse."
+        },
+        "entry": {
+          "title": "Entry",
+          "description": "Before entry, seven steps must be completed: establish a clear bullish or bearish Bias, identify a HTF POI, wait for a MTF liquidity sweep into the HTF POI, confirm IRL, ERL, and DOL, define the MMXM position on the LTF, seek opportunities within Discount or Premium zones, and only enter when the risk-to-reward ratio exceeds 1:1. The three core entry models are the ICT 2022 Model (liquidity sweep → MSS → entry respecting FVG), the Silver Bullet model (same criteria but restricted to three specific kill zones), and the Unicorn model (requires confluence of an FVG and a Breaker Block for entry). The TGIF model is exclusively for Fridays, exploiting the tendency for a 20–30% weekly range retracement to occur on Friday following a strong directional week — it requires confirming the extreme was formed on Monday or Tuesday, three consecutive same-direction candles from Tuesday through Thursday, and then waiting for MSS/CISD confirmation before entering."
+        }
       }
     }
   }

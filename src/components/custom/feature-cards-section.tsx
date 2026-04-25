@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { AnimatedMessagesBackground } from "@/components/custom/animated-messages";
 import { AnimatedNotificationsBackground } from "@/components/custom/animated-notifications";
 import { BentoCard } from "@/components/custom/bento-card";
+import { ConceptCardsMarqueeBackground } from "@/components/custom/concept-cards-marquee";
 import { Container } from "@/components/custom/container";
 
 export function FeatureCardsSection() {
@@ -23,17 +24,18 @@ export function FeatureCardsSection() {
             background={<AnimatedNotificationsBackground />}
           />
           <BentoCard
+            title={t("cards.tradingTutorial.title")}
+            description={t("cards.tradingTutorial.description")}
+            href="https://t.me/kaiyncapital"
+            cta={t("learnMore")}
+            background={<ConceptCardsMarqueeBackground />}
+          />
+          <BentoCard
             title={t("cards.strategyGroup.title")}
             description={t("cards.strategyGroup.description")}
             href="https://t.me/kaiyncapital"
             cta={t("learnMore")}
             background={<AnimatedMessagesBackground />}
-          />
-          <BentoCard
-            title="Card title 3"
-            description="Card description 3"
-            href="#"
-            cta={t("learnMore")}
           />
         </div>
       </Container>

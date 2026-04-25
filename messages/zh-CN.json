@@ -22,6 +22,44 @@
       "strategyGroup": {
         "title": "策略社区",
         "description": "与其他交易者校准方向，获取经验证的进出场策略。"
+      },
+      "tradingTutorial": {
+        "title": "交易教学",
+        "description": "学习 ICT、价格行为等技术，成为专业交易员。"
+      },
+      "concepts": {
+        "marketStructure": {
+          "title": "市场结构",
+          "description": "看涨市场结构由连续的更高高点 (HH) 与更高低点 (HL) 组成，看跌市场结构则由更低高点 (LH) 与更低低点 (LL) 组成，分别代表买方主导与卖方主导的市场。当摆动高低点被突破时称为市场结构突破 (MSB/BOS)，代表趋势延续；当最近一根 LL 之前的高点被突破时称为市场结构转换 (MSS/CHOCH)，代表趋势反转。优质的 MSS 必须同时伴随流动性扫荡、显著的位移 (Displacement) 以及失衡区 (Imbalance) 的形成。"
+        },
+        "liquidity": {
+          "title": "流动性",
+          "description": "机构进场需要大量订单撮合，因此摆动高低点与等高等低点 (EQH/EQL) 是最常见的流动性堆积区，聪明钱在此完成与散户的订单流交换。流动性扫荡 (Liquidity Sweep) 指价格突破流动性区后迅速反向回撤，是每一段多空走势的起点，在突破当下追单是错误行为。扫完流动性后的价格输送可分为低阻力流动性奔跑 (LRLR，顺畅输送) 与高阻力流动性奔跑 (HRLR，受阻颠簸)，输送状态改变 (CISD) 则是辨识反转的另一个关键讯号。"
+        },
+        "imbalance": {
+          "title": "失衡",
+          "description": "当聪明钱以大量资金推动剧烈位移时，部分挂单无法被有效成交，形成流动性失衡区，算法未来会引导价格回到此区进行再平衡。在连续三根 K 线中，若第一根与第三根的影线无法完全重叠，中间区域即为公允价值缺口 (FVG)；若 FVG 在未被再平衡前被完全吞噬，则转化为反向公允价值缺口 (IFVG)，意义更强。两个方向相反的 FVG 重叠形成平衡价格区间 (BPR)，价格触及应快速反应；FVG 回测填补不超过 50% 即反转时称为 IOFED，代表市场条件异常强劲。"
+        },
+        "supplyAndDemand": {
+          "title": "供需",
+          "description": "订单块 (OB) 是机构大规模挂单的区域，定义为显著位移前最后一根反向 K 线；优质 OB 必须同时满足三项条件：流动性扫荡、产生 FVG 的显著位移以及完成 MSS。当 OB 形成 MSS 后又被反向突破时，订单流反转，该区域成为突破块 (Breaker Block)；若 OB 未形成 MSS 即被直接吞噬则成为缓解块 (Mitigation Block)。推进块 (Propulsion Block) 代表聪明钱回测 OB 后再次进攻，价格不应破其中轴 (MT)；拒绝块 (Rejection Block) 与回收块 (Reclaimed Block) 则分别代表强烈的离场意图以及市场结构反转后 OB 的再利用。"
+        },
+        "ipda": {
+          "title": "银行间定价算法",
+          "description": "在 IPDA 主导下，价格输送只存在四种状态：盘整 (Consolidation)、扩张 (Expansion)、回撤 (Retracement) 与反转 (Reversal)，所有价格行为皆源自盘整阶段。盘整时，当折扣区或 SSL 被扫荡可寻找做多机会，溢价区或 BSL 被扫荡则寻找做空机会；扩张阶段代表造市商重新定价，回撤阶段则是价格回补 FVG 后再沿着输送方向延续。反转必须等待价格抵达 HTF POI 并由 MSS/CISD 确认 — 在价格未到达关键高周期位阶前尝试交易趋势反转是低胜率行为。"
+        },
+        "dealingRange": {
+          "title": "交易区间",
+          "description": "任何有意义的摆动高点与低点都可定义一个交易区间：均衡中轴 (EQ) 之上为溢价区 (Premium)，之下为折扣区 (Discount) — 在溢价区寻找做空，在折扣区寻找做多。区间内的 OB、FVG 与流动性统称 PDA (溢价折扣阵列)；外部区间流动性 (ERL) 指旧高低点，内部区间流动性 (IRL) 指 OB 与 FVG，价格永恒在 ERL 与 IRL 之间输送。当下吸引价格的 PDA 称为流动性指引 (DOL)，是所有交易决策的核心依据；最佳交易进场 (OTE) 落在 0.62 至 0.79 斐波那契回撤之间，提供良好的风险报酬比，但必须与其他概念汇流使用。"
+        },
+        "advancedMarketStructure": {
+          "title": "进阶市场结构",
+          "description": "由上而下分析需在高周期 (HTF) 建立方向偏好 (Bias) 与 DOL，于中周期 (MTF) 辨识交易布局，并于低周期 (LTF) 精修进场 — 每个层级各司其职。三段式模型 PO3 (Power of Three) 是 ICT/SMC 最基础的概念，包含累积 (Accumulation)、操纵 (Manipulation) 与分配 (Distribution)；在操纵段扫完流动性后，价格会在真实方向快速输送，标准差 (STDV) -2 至 -2.5 为回撤目标，-3.5 至 -4 则为反转目标。造市商模型 (MMXM) 描述 HTF IRL 至 ERL 输送在 LTF 的完整呈现 — 所有 LTF 价格行为最终皆服务于 HTF，当 LTF 价格抵达 HTF PDA 时，LTF 输送方向将完全反转。"
+        },
+        "entry": {
+          "title": "进场",
+          "description": "进场前必须完成七个步骤：建立明确的多空 Bias、辨识 HTF POI、等待 MTF 流动性扫荡进入 HTF POI、确认 IRL、ERL 与 DOL、于 LTF 定义 MMXM 位置、在折扣区或溢价区寻找机会，并仅在风险报酬比超过 1:1 时进场。三个核心进场模型分别为 ICT 2022 Model (流动性扫荡 → MSS → 尊重 FVG 进场)、Silver Bullet 模型 (条件相同但限定于三个特定的 Kill Zone) 以及 Unicorn 模型 (需要 FVG 与 Breaker Block 汇流才进场)。TGIF 模型专属于周五，利用强方向周后周五倾向回撤周区间 20–30% 的特性 — 需确认极值由周一或周二形成、周二至周四出现三根连续同向 K 线，然后等待 MSS/CISD 确认才进场。"
+        }
       }
     }
   }
