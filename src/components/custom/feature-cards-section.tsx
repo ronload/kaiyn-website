@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { AnimatedMessagesBackground } from "@/components/custom/animated-messages";
 import { AnimatedNotificationsBackground } from "@/components/custom/animated-notifications";
 import { BentoCard } from "@/components/custom/bento-card";
 import { Container } from "@/components/custom/container";
@@ -26,6 +27,7 @@ export function FeatureCardsSection() {
             description="Card description 2"
             href="#"
             cta={t("learnMore")}
+            background={<AnimatedMessagesBackground />}
           />
           <BentoCard
             title="Card title 3"
