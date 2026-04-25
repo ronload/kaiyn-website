@@ -20,7 +20,7 @@ export function ConceptCardsMarqueeBackground() {
   const secondColumn = conceptKeys.slice(4, 8);
 
   return (
-    <div className="absolute inset-0 flex h-full items-center justify-center overflow-hidden [mask-image:linear-gradient(to_bottom,transparent_5%,#000_25%,#000_75%,transparent_95%)]">
+    <div className="absolute inset-0 flex h-full items-center justify-center overflow-hidden [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)]">
       <div className="flex flex-row gap-3">
         <Marquee
           vertical

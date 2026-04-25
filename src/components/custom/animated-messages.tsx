@@ -146,7 +146,7 @@ export function AnimatedMessagesBackground() {
   return (
     <div
       ref={ref}
-      className="absolute inset-x-2 top-4 flex h-[300px] flex-col overflow-hidden px-2 pt-2 pb-12 [mask-image:linear-gradient(to_bottom,transparent_10%,#000_25%,#000_70%,transparent_85%)]"
+      className="absolute inset-x-2 top-4 flex h-[300px] flex-col overflow-hidden px-2 pt-2 pb-12 [mask-image:linear-gradient(to_bottom,transparent_0%,#000_10%,#000_70%,transparent_85%)]"
     >
       {isInView && (
         <AnimatedMessageList delay={1500} className="flex-1 items-start">
