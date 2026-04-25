@@ -20,6 +20,17 @@ export default function HeroSection() {
       />
       <div className="absolute inset-0 backdrop-blur-xl" />
       <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-[30%] backdrop-blur-3xl"
+        style={{
+          background:
+            "linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,1) 100%)",
+          maskImage: "linear-gradient(to bottom, transparent 0%, black 50%)",
+          WebkitMaskImage:
+            "linear-gradient(to bottom, transparent 0%, black 50%)",
+        }}
+      />
+      <div
         className={`relative z-10 flex min-h-screen flex-col items-center justify-center gap-8 px-(--page-inline) pt-32 md:pt-40 pb-16 md:gap-12 ${isEn ? "-translate-y-8" : ""}`}
       >
         <div className="mb-6 flex flex-col items-center gap-3 md:mb-0 md:gap-4">
