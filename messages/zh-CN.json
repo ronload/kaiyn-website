@@ -16,6 +16,29 @@
     "learnMore": "了解更多",
     "exchangesTitle": "与顶尖交易所合作",
     "exchangesDescription": "共同打造卓越社区",
+    "timeline": {
+      "badge": "免费加入",
+      "title": "如何开始",
+      "subtitle": "与 Kaiyn 一同开始稳定获利",
+      "steps": {
+        "joinCommunity": {
+          "title": "加入公开社区",
+          "description": "从加入我们的公开 Telegram 社区开始,与其他交易者交流并掌握市场动态。"
+        },
+        "registerBitget": {
+          "title": "注册 Bitget",
+          "description": "通过我们的专属邀请链接注册 Bitget 账户,解锁社区专属福利。"
+        },
+        "kycDeposit": {
+          "title": "完成 KYC 与入金",
+          "description": "于 Bitget 完成 KYC 身份验证并进行首次入金,即可开始交易。"
+        },
+        "contactAdmin": {
+          "title": "联系管理员",
+          "description": "联系我们的管理员,获取私密信号群组与专属资源的访问权限。"
+        }
+      }
+    },
     "cards": {
       "telegramSignal": {
         "title": "Telegram 信号",

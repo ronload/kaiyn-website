@@ -16,6 +16,29 @@
     "learnMore": "Learn more",
     "exchangesTitle": "Collaborating with leading exchanges",
     "exchangesDescription": "Co-creating exceptional communities",
+    "timeline": {
+      "badge": "Free to join",
+      "title": "How to Start",
+      "subtitle": "Begin your steady profit journey with Kaiyn",
+      "steps": {
+        "joinCommunity": {
+          "title": "Join public community",
+          "description": "Start by joining our public Telegram community to connect with fellow traders and follow market discussions."
+        },
+        "registerBitget": {
+          "title": "Register Bitget",
+          "description": "Create your Bitget account through our exclusive referral link to unlock community benefits."
+        },
+        "kycDeposit": {
+          "title": "Finish KYC & Deposit",
+          "description": "Complete KYC verification on Bitget and make your first deposit to start trading."
+        },
+        "contactAdmin": {
+          "title": "Contact our admin",
+          "description": "Reach out to our admin to gain access to the private signal group and exclusive resources."
+        }
+      }
+    },
     "cards": {
       "telegramSignal": {
         "title": "Telegram Signal",

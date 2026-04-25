@@ -124,6 +124,6 @@ html:lang(zh-CN) {
     @apply bg-background text-foreground;
   }
   html {
-    @apply font-sans;
+    @apply relative font-sans;
   }
 }
