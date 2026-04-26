@@ -27,6 +27,11 @@
           "cta": {
             "label": "加入社群",
             "url": "kaiyn.org/telegram"
+          },
+          "card": {
+            "name": "Kaiyn Capital",
+            "members": "3,463 位成員 · 14 位在線",
+            "viewButton": "在 Telegram 中開啟"
           }
         },
         "registerBitget": {

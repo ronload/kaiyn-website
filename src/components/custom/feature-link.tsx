@@ -1,9 +1,10 @@
 import type { CSSProperties } from "react";
+import { ChevronRight } from "lucide-react";
 
 type FeatureLinkProps = {
   href: string;
   label: string;
-  url: string;
+  url?: string;
   color?: string;
 };
 
@@ -12,7 +13,7 @@ const DEFAULT_COLOR = "#5e6ad2";
 export function FeatureLink({
   href,
   label,
-  url,
+  url = "",
   color = DEFAULT_COLOR,
 }: FeatureLinkProps) {
   const dotStyle = {
@@ -39,10 +40,15 @@ export function FeatureLink({
       <span className="text-[0.9375rem] font-medium text-foreground">
         {label}
       </span>
-      <span className="text-[0.9375rem] text-muted-foreground">
-        {url}
-        <span className="text-muted-foreground/60"> &rarr;</span>
+      <span className="text-[0.9375rem] font-medium text-foreground">
+        <ChevronRight className="size-[0.9375rem]" />
       </span>
+      {url && (
+        <span className="text-[0.9375rem] text-muted-foreground">
+          {url}
+          <span className="text-muted-foreground/60"> &rarr;</span>
+        </span>
+      )}
     </a>
   );
 }

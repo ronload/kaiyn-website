@@ -1,7 +1,6 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "motion/react";
-import Image from "next/image";
 import type { ComponentType, ReactNode } from "react";
 import { useRef } from "react";
 
@@ -78,12 +77,7 @@ const Timeline = ({ badge, title, subtitle, children }: TimelineProps) => {
 
 type TimelineStepProps = {
   icon: IconComponent;
-  image: {
-    src: string;
-    alt?: string;
-    width?: number;
-    height?: number;
-  };
+  media: ReactNode;
   title: string;
   description: ReactNode;
   reverse?: boolean;
@@ -92,7 +86,7 @@ type TimelineStepProps = {
 
 const TimelineStep = ({
   icon: Icon,
-  image,
+  media,
   title,
   description,
   reverse,
@@ -164,15 +158,9 @@ const TimelineStep = ({
               <div className="px-6 lg:px-10">
                 <DiagonalPattern className="h-6 lg:h-10" />
               </div>
-              <div className="relative grid grid-cols-[auto_1fr_auto] items-stretch">
+              <div className="relative grid grid-cols-[auto_minmax(0,1fr)_auto] items-stretch">
                 <DiagonalPattern className="h-full w-6 lg:w-10" />
-                <Image
-                  src={image.src}
-                  width={image.width ?? 400}
-                  height={image.height ?? 500}
-                  alt={image.alt ?? title}
-                  className="object-contain dark:invert"
-                />
+                {media}
                 <DiagonalPattern className="w-6 lg:w-10" />
               </div>
               <div className="px-6 lg:px-10">

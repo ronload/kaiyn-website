@@ -27,6 +27,11 @@
           "cta": {
             "label": "Join community",
             "url": "kaiyn.org/telegram"
+          },
+          "card": {
+            "name": "Kaiyn Capital",
+            "members": "3,463 members · 14 online",
+            "viewButton": "VIEW IN TELEGRAM"
           }
         },
         "registerBitget": {
