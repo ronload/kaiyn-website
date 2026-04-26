@@ -23,7 +23,11 @@
       "steps": {
         "joinCommunity": {
           "title": "Join public community",
-          "description": "Start by joining our public Telegram community to connect with fellow traders and follow market discussions."
+          "description": "Start by joining our public Telegram community to connect with fellow traders and follow market discussions.",
+          "cta": {
+            "label": "Join community",
+            "url": "kaiyn.org/telegram"
+          }
         },
         "registerBitget": {
           "title": "Register Bitget",

@@ -23,7 +23,11 @@
       "steps": {
         "joinCommunity": {
           "title": "加入公開社群",
-          "description": "從加入我們的公開 Telegram 社群開始,與其他交易者交流並掌握市場動態。"
+          "description": "從加入我們的公開 Telegram 社群開始,與其他交易者交流並掌握市場動態。",
+          "cta": {
+            "label": "加入社群",
+            "url": "kaiyn.org/telegram"
+          }
         },
         "registerBitget": {
           "title": "註冊 Bitget",

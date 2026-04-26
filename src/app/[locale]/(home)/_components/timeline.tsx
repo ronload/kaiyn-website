@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 
+import { FeatureLink } from "@/components/custom/feature-link";
 import {
   Timeline as TimelineLayout,
   TimelineStep,
@@ -64,7 +65,16 @@ const Timeline = () => {
           title={t(`steps.${item.key}.title`)}
           description={t(`steps.${item.key}.description`)}
           reverse={item.reverse}
-        />
+        >
+          {item.key === "joinCommunity" && (
+            <FeatureLink
+              href="https://t.me/kaiyncapital"
+              label={t("steps.joinCommunity.cta.label")}
+              url={t("steps.joinCommunity.cta.url")}
+              color="#2AABEE"
+            />
+          )}
+        </TimelineStep>
       ))}
     </TimelineLayout>
   );
