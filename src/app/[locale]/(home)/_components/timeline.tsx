@@ -16,6 +16,7 @@ import {
   TimelineStep,
 } from "@/components/custom/timeline";
 
+import { BitgetRegisterCard } from "./bitget-register-card";
 import { TelegramPreviewCard } from "./telegram-preview-card";
 
 const STEPS = [
@@ -25,17 +26,9 @@ const STEPS = [
     media: <TelegramPreviewCard />,
   },
   {
-    key: "registerBitget",
+    key: "registerExchange",
     icon: UserPlus,
-    media: (
-      <Image
-        src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-2.svg"
-        width={400}
-        height={500}
-        alt=""
-        className="object-contain dark:invert"
-      />
-    ),
+    media: <BitgetRegisterCard />,
     reverse: true,
   },
   {

@@ -34,13 +34,29 @@
             "viewButton": "VIEW IN TELEGRAM"
           }
         },
-        "registerBitget": {
-          "title": "Register Bitget",
-          "description": "Create your Bitget account through our exclusive referral link to unlock community benefits."
+        "registerExchange": {
+          "title": "Register Partner Exchange",
+          "description": "Create your partner exchange account through our exclusive referral link to unlock community benefits.",
+          "card": {
+            "emailLabel": "Email / Phone number",
+            "emailPlaceholder": "Email / Phone number",
+            "passwordLabel": "Password",
+            "passwordPlaceholder": "Set a password",
+            "inviteLabel": "Referral code (optional)",
+            "agreement": "I have read and agree to the User Agreement and Privacy Policy",
+            "marketing": "I agree to receive marketing communications from Bitget",
+            "submitButton": "Create account",
+            "divider": "Or sign in with",
+            "google": "Continue with Google",
+            "apple": "Continue with Apple",
+            "wallet": "Connect wallet",
+            "haveAccount": "Already have an account?",
+            "goLogin": "Sign in"
+          }
         },
         "kycDeposit": {
           "title": "Finish KYC & Deposit",
-          "description": "Complete KYC verification on Bitget and make your first deposit to start trading."
+          "description": "Complete KYC verification on the partner exchange and make your first deposit to start trading."
         },
         "contactAdmin": {
           "title": "Contact our admin",

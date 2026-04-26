@@ -34,13 +34,29 @@
             "viewButton": "在 Telegram 中開啟"
           }
         },
-        "registerBitget": {
-          "title": "註冊 Bitget",
-          "description": "透過我們的專屬邀請連結註冊 Bitget 帳戶,解鎖社群專屬福利。"
+        "registerExchange": {
+          "title": "註冊合作交易所",
+          "description": "透過我們的專屬邀請連結註冊合作交易所帳戶,解鎖社群專屬福利。",
+          "card": {
+            "emailLabel": "電子信箱/手機號碼",
+            "emailPlaceholder": "電子郵件/手機號碼",
+            "passwordLabel": "密碼",
+            "passwordPlaceholder": "設置密碼",
+            "inviteLabel": "邀請碼（可選）",
+            "agreement": "我已閱讀並同意《用戶協議》和《個人隱私政策》",
+            "marketing": "我同意接收來自 Bitget 的行銷資訊",
+            "submitButton": "創建帳戶",
+            "divider": "或透過以下方式登入",
+            "google": "透過 Google 繼續",
+            "apple": "透過 Apple 繼續",
+            "wallet": "連接錢包",
+            "haveAccount": "已經擁有帳戶了嗎？",
+            "goLogin": "前往登入"
+          }
         },
         "kycDeposit": {
           "title": "完成 KYC 與入金",
-          "description": "於 Bitget 完成 KYC 身分驗證並進行首次入金,即可開始交易。"
+          "description": "於合作交易所完成 KYC 身分驗證並進行首次入金,即可開始交易。"
         },
         "contactAdmin": {
           "title": "聯繫管理員",
