@@ -34,7 +34,7 @@ export default function Hero() {
         className={`relative z-10 flex min-h-screen flex-col items-center justify-center gap-8 px-(--page-inline) pt-32 md:pt-40 pb-16 md:gap-12 ${isEn ? "-translate-y-8" : ""}`}
       >
         <div className="mb-6 flex flex-col items-center gap-3 md:mb-0 md:gap-4">
-          <h1 className="text-balance text-center font-semibold text-3xl text-white tracking-tight sm:text-5xl md:text-5xl lg:text-6xl">
+          <h1 className="text-balance text-center font-semibold text-4xl text-white tracking-tight sm:text-5xl md:text-5xl lg:text-6xl">
             {t("headline")}
           </h1>
           <p className="max-w-2xl text-balance text-center text-lg text-white/80 md:text-xl">
