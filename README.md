@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kaiyn Website
+
+Kaiyn Website is a multilingual marketing site for the Kaiyn crypto trading
+community. It is built with Next.js App Router, React, next-intl, Tailwind CSS,
+and reusable UI components.
+
+## Tech Stack
+
+- Next.js 16 with App Router
+- React 19
+- TypeScript
+- next-intl for routing and translations
+- Tailwind CSS
+- Biome for linting and formatting
+- pnpm for package management
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open the site:
 
-## Learn More
+- English: [http://localhost:3000](http://localhost:3000)
+- Traditional Chinese: [http://localhost:3000/zh-TW](http://localhost:3000/zh-TW)
+- Simplified Chinese: [http://localhost:3000/zh-CN](http://localhost:3000/zh-CN)
 
-To learn more about Next.js, take a look at the following resources:
+## Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm dev           # Start the local development server
+pnpm build         # Create a production build
+pnpm start         # Start the production server
+pnpm typecheck     # Run TypeScript checks
+pnpm lint          # Run Biome checks
+pnpm format        # Format files with Biome
+pnpm check         # Run typecheck, Biome check, and format check
+pnpm clean         # Remove generated build/cache files
+pnpm clean:all     # Remove generated files, reinstall dependencies
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+```text
+src/app/[locale]/
+  layout.tsx                 Locale-aware root layout
+  (home)/page.tsx            Home page composition
+  (home)/_components/        Home page sections and feature components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+src/components/
+  layout/                    Shared layout components
+  ui/                        Reusable UI primitives
+  custom/                    Project-specific shared components
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+src/i18n/
+  routing.ts                 Supported locales and locale prefix rules
+  request.ts                 next-intl request configuration
+  navigation.ts              Locale-aware navigation helpers
+
+messages/
+  en.json                    English copy
+  zh-TW.json                 Traditional Chinese copy
+  zh-CN.json                 Simplified Chinese copy
+
+public/
+  img/                       Static image assets
+  video/                     Static video assets
+```
+
+## Internationalization
+
+Supported locales are configured in `src/i18n/routing.ts`:
+
+- `en` is the default locale and uses the root path.
+- `zh-TW` uses `/zh-TW`.
+- `zh-CN` uses `/zh-CN`.
+
+Page copy lives in the matching files under `messages/`. When adding or
+renaming a translation key, update every locale file so all language routes stay
+in sync.
+
+## Home Page Flow
+
+The home page is assembled in `src/app/[locale]/(home)/page.tsx` from these
+sections:
+
+1. Hero
+2. Exchange logos marquee
+3. Feature cards
+4. Timeline
+
+Most visible text comes from the `HomePage` namespace in the translation files.
+This makes small copy changes a good first task because they exercise the
+project's i18n flow without touching complex application logic.
