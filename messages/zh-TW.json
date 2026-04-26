@@ -1,75 +1,75 @@
 {
   "HomePage": {
     "title": "Kaiyn",
-    "headline": "領先市場，深入Web3",
-    "subtitle": "結識專業加密貨幣交易社群,與高手一同交流,自信交易。",
+    "headline": "深入 Web3，掌握市場先機",
+    "subtitle": "加入專業加密貨幣交易社群，和資深交易者交流，帶著更充分的信心交易。",
     "joinCommunity": "加入我們的社群",
-    "trustedBy": "3000+ 位使用者信賴",
-    "bullishSignal": "看漲訊號",
-    "symbol": "標的",
+    "trustedBy": "已有 3000+ 位使用者信賴",
+    "bullishSignal": "看多訊號",
+    "symbol": "交易對",
     "direction": "方向",
-    "long": "多",
-    "short": "空",
-    "entry": "進場",
-    "takeProfit": "止盈",
-    "stopLoss": "止損",
+    "long": "做多",
+    "short": "做空",
+    "entry": "進場點",
+    "takeProfit": "停利",
+    "stopLoss": "停損",
     "learnMore": "了解更多",
-    "exchangesTitle": "與頂尖交易所合作",
-    "exchangesDescription": "共同打造卓越社群",
+    "exchangesTitle": "攜手頂尖交易所",
+    "exchangesDescription": "共同打造高品質交易社群",
     "timeline": {
       "badge": "免費加入",
       "title": "如何開始",
-      "subtitle": "與 Kaiyn 一同開始穩定獲利",
+      "subtitle": "從 Kaiyn 開始你的穩健獲利之旅",
       "steps": {
         "joinCommunity": {
           "title": "加入公開社群",
-          "description": "從加入我們的公開 Telegram 社群開始,與其他交易者交流並掌握市場動態。",
+          "description": "加入我們的公開 Telegram 社群，與其他交易者交流，跟上市場討論。",
           "cta": {
             "label": "加入社群",
             "url": "kaiyn.org/telegram"
           },
           "card": {
             "name": "Kaiyn Capital",
-            "members": "3,463 位成員 · 14 位在線",
-            "viewButton": "在 Telegram 中開啟"
+            "members": "3,463 位成員 · 14 人線上",
+            "viewButton": "在 Telegram 中查看"
           }
         },
         "registerExchange": {
-          "title": "註冊合作交易所",
-          "description": "透過我們的專屬邀請連結註冊合作交易所帳戶,解鎖社群專屬福利。",
+          "title": "註冊合作交易所帳戶",
+          "description": "透過專屬邀請連結開通合作交易所帳戶，即可解鎖社群權益。",
           "cta1": {
-            "label": "在 <brand>Bitget</brand> 註冊帳戶"
+            "label": "在 <brand>Bitget</brand> 建立帳戶"
           },
           "cta2": {
-            "label": "在 <brand>Binance</brand> 註冊帳戶"
+            "label": "在 <brand>Binance</brand> 建立帳戶"
           },
           "card": {
-            "emailLabel": "電子信箱/手機號碼",
-            "emailPlaceholder": "電子郵件/手機號碼",
+            "emailLabel": "電子信箱 / 手機號碼",
+            "emailPlaceholder": "電子信箱 / 手機號碼",
             "passwordLabel": "密碼",
-            "passwordPlaceholder": "設置密碼",
-            "inviteLabel": "邀請碼（可選）",
-            "agreement": "我已閱讀並同意《用戶協議》和《個人隱私政策》",
-            "marketing": "我同意接收來自 Bitget 的行銷資訊",
-            "submitButton": "創建帳戶",
-            "divider": "或透過以下方式登入",
-            "google": "透過 Google 繼續",
-            "apple": "透過 Apple 繼續",
-            "wallet": "連接錢包",
-            "haveAccount": "已經擁有帳戶了嗎？",
-            "goLogin": "前往登入"
+            "passwordPlaceholder": "設定登入密碼",
+            "inviteLabel": "邀請碼（選填）",
+            "agreement": "我已閱讀並同意《使用者協議》與《隱私權政策》",
+            "marketing": "我同意接收來自 Bitget 的行銷訊息",
+            "submitButton": "建立帳戶",
+            "divider": "或使用以下方式登入",
+            "google": "使用 Google 繼續",
+            "apple": "使用 Apple 繼續",
+            "wallet": "連結錢包",
+            "haveAccount": "已有帳戶？",
+            "goLogin": "登入"
           }
         },
         "kycDeposit": {
-          "title": "完成 KYC 與入金",
-          "description": "於合作交易所完成 KYC 身分驗證並進行首次入金,即可開始交易。",
+          "title": "完成 KYC 並入金",
+          "description": "在合作交易所完成 KYC 身分驗證並完成首次入金後，即可開始交易。",
           "cta": {
-            "label": "詢問如何 KYC 與入金"
+            "label": "詢問如何完成 KYC 與入金"
           },
           "card": {
             "title": "發送 USDT",
             "kycBadge": "KYC 已驗證",
-            "network": "TRC20 (Tron 網路)",
+            "network": "TRC20（Tron 網路）",
             "fromName": "我的錢包",
             "toName": "Bitget",
             "feeLabel": "網路手續費",
@@ -80,65 +80,65 @@
           }
         },
         "contactAdmin": {
-          "title": "聯繫管理員",
-          "description": "聯繫我們的管理員,取得私密訊號群組與專屬資源的存取權限。",
+          "title": "聯絡管理員",
+          "description": "聯絡管理員，開通私人策略群與其他社群專屬資源權限。",
           "cta": {
-            "label": "聯繫管理員"
+            "label": "聯絡管理員"
           },
           "card": {
             "adminName": "Kaiyn Admin",
-            "adminStatus": "在線",
+            "adminStatus": "線上",
             "userMessage": "請問如何免費加入私人策略群？",
-            "adminMessage": "只要提供給我你的交易所 UID 並等待我完成審核即可。"
+            "adminMessage": "只要把你的交易所 UID 發給我，等待審核完成即可。"
           }
         }
       }
     },
     "cards": {
       "telegramSignal": {
-        "title": "Telegram 訊號",
-        "description": "即時交易訊號通知，領先每一次市場波動。"
+        "title": "Telegram 交易訊號",
+        "description": "即時推送交易訊號，及時跟上市場變化。"
       },
       "strategyGroup": {
-        "title": "策略社群",
-        "description": "與其他交易者校準方向，獲取經驗證的進出場策略。"
+        "title": "策略交流群",
+        "description": "與其他交易者校準交易方向，取得經過驗證的進出場策略。"
       },
       "tradingTutorial": {
         "title": "交易教學",
-        "description": "學習 ICT、價格行為等技術，成為專業交易員。"
+        "description": "學習 ICT/SMC、價格行為與實戰方法，提升到專業交易水準。"
       },
       "concepts": {
         "marketStructure": {
           "title": "市場結構",
-          "description": "看漲市場結構由連續的更高高點 (HH) 與更高低點 (HL) 組成，看跌市場結構則由更低高點 (LH) 與更低低點 (LL) 組成，分別代表買方主導與賣方主導的市場。當擺動高低點被突破時稱為市場結構突破 (MSB/BOS)，代表趨勢延續；當最近一根 LL 之前的高點被突破時稱為市場結構轉換 (MSS/CHOCH)，代表趨勢反轉。優質的 MSS 必須同時伴隨流動性掃蕩、顯著的位移 (Displacement) 以及失衡區 (Imbalance) 的形成。"
+          "description": "多頭市場結構由連續的更高高點（HH）和更高低點（HL）構成；空頭市場結構則由更低高點（LH）和更低低點（LL）構成，分別反映買方與賣方佔據主導。價格突破關鍵擺動高點或低點，通常稱為市場結構突破（MSB/BOS），代表趨勢可能延續；若價格突破最近一個 LL 形成前的高點，則稱為市場結構轉變（MSS/CHOCH），代表趨勢可能反轉。高品質的 MSS 通常需要同時出現流動性掃蕩、明顯位移（Displacement），並形成失衡區（Imbalance）。"
         },
         "liquidity": {
           "title": "流動性",
-          "description": "機構進場需要大量訂單撮合，因此擺動高低點與等高等低點 (EQH/EQL) 是最常見的流動性堆積區，聰明錢在此完成與散戶的訂單流交換。流動性掃蕩 (Liquidity Sweep) 指價格突破流動性區後迅速反向回撤，是每一段多空走勢的起點，在突破當下追單是錯誤行為。掃完流動性後的價格輸送可分為低阻力流動性奔跑 (LRLR，順暢輸送) 與高阻力流動性奔跑 (HRLR，受阻顛簸)，輸送狀態改變 (CISD) 則是辨識反轉的另一個關鍵訊號。"
+          "description": "機構建倉需要足夠的對手盤，因此擺動高低點與等高 / 等低點（EQH/EQL）往往是最常見的流動性聚集區，聰明錢也常在這些位置完成與散戶的訂單流交換。流動性掃蕩（Liquidity Sweep）指價格突破流動性區域後又快速拉回；這往往是一段多空行情的起點，突破瞬間追單通常風險很高。掃蕩之後的價格運行可分為低阻力流動性推進（LRLR，走勢順暢）與高阻力流動性推進（HRLR，走勢受阻且反覆），而價格交付狀態變化（CISD）也是判斷反轉的重要訊號。"
         },
         "imbalance": {
           "title": "失衡",
-          "description": "當聰明錢以大量資金推動劇烈位移時，部分掛單無法被有效成交，形成流動性失衡區，演算法未來會引導價格回到此區進行再平衡。在連續三根 K 棒中，若第一根與第三根的影線無法完全重疊，中間區域即為公允價值缺口 (FVG)；若 FVG 在未被再平衡前被完全吞噬，則轉化為反向公允價值缺口 (IFVG)，意義更強。兩個方向相反的 FVG 重疊形成平衡價格區間 (BPR)，價格觸及應快速反應；FVG 回測填補不超過 50% 即反轉時稱為 IOFED，代表市場條件異常強勁。"
+          "description": "當聰明錢用大額資金推動價格快速位移時，部分掛單來不及成交，便會形成流動性失衡區，後續演算法通常會引導價格回到該區域完成再平衡。連續三根 K 棒中，若第一根與第三根的影線沒有完全重疊，中間留下的區域就是公允價值缺口（FVG）；若 FVG 尚未完成回補就被完全吞沒，會轉化為反向公允價值缺口（IFVG），參考意義更強。兩個方向相反的 FVG 重疊時，會形成平衡價格區間（BPR），價格觸及後通常應快速反應；若 FVG 回測只回補不超過 50% 就反轉，則稱為 IOFED，代表市場動能異常強。"
         },
         "supplyAndDemand": {
           "title": "供需",
-          "description": "訂單塊 (OB) 是機構大規模掛單的區域，定義為顯著位移前最後一根反向 K 棒；優質 OB 必須同時滿足三項條件：流動性掃蕩、產生 FVG 的顯著位移以及完成 MSS。當 OB 形成 MSS 後又被反向突破時，訂單流反轉，該區域成為突破塊 (Breaker Block)；若 OB 未形成 MSS 即被直接吞噬則成為緩解塊 (Mitigation Block)。推進塊 (Propulsion Block) 代表聰明錢回測 OB 後再次進攻，價格不應破其中軸 (MT)；拒絕塊 (Rejection Block) 與回收塊 (Reclaimed Block) 則分別代表強烈的離場意圖以及市場結構反轉後 OB 的再利用。"
+          "description": "訂單塊（OB）是機構集中部署大額訂單的區域，通常定義為明顯位移前最後一根反向 K 棒；高品質 OB 需要同時具備三項條件：完成流動性掃蕩、出現產生 FVG 的明顯位移，以及完成 MSS。若 OB 先形成 MSS，隨後又被反向突破，說明訂單流反轉，該區域會轉為 Breaker Block；若 OB 未形成 MSS 就被直接吞沒，則會成為 Mitigation Block。Propulsion Block 代表聰明錢回測 OB 後再次推動價格，價格不應有效突破其中點（MT）；Rejection Block 與 Reclaimed Block 分別代表強烈離場意圖，以及市場結構反轉後 OB 被重新利用。"
         },
         "ipda": {
-          "title": "銀行間定價演算法",
-          "description": "在 IPDA 主導下，價格輸送只存在四種狀態：盤整 (Consolidation)、擴張 (Expansion)、回撤 (Retracement) 與反轉 (Reversal)，所有價格行為皆源自盤整階段。盤整時，當折扣區或 SSL 被掃蕩可尋找做多機會，溢價區或 BSL 被掃蕩則尋找做空機會；擴張階段代表造市商重新定價，回撤階段則是價格回補 FVG 後再延著輸送方向延續。反轉必須等待價格抵達 HTF POI 並由 MSS/CISD 確認 — 在價格未到達關鍵高週期位階前嘗試交易趨勢反轉是低勝率行為。"
+          "title": "銀行間價格傳遞演算法",
+          "description": "在 IPDA 框架下，價格運行只有四種狀態：盤整（Consolidation）、擴張（Expansion）、回撤（Retracement）與反轉（Reversal），所有行情都從區間整理開始。盤整階段中，折扣區或 SSL 被掃蕩後可尋找做多機會，溢價區或 BSL 被掃蕩後則可尋找做空機會；擴張階段代表做市商重新定價，回撤階段則是價格回補 FVG 後繼續沿原方向運行。反轉交易必須等待價格到達 HTF POI，並用 MSS/CISD 確認；在到達高週期關鍵位之前搶反轉，勝率通常很低。"
         },
         "dealingRange": {
           "title": "交易區間",
-          "description": "任何有意義的擺動高點與低點都可定義一個交易區間：均衡中軸 (EQ) 之上為溢價區 (Premium)，之下為折扣區 (Discount) — 在溢價區尋找做空，在折扣區尋找做多。區間內的 OB、FVG 與流動性統稱 PDA (溢價折扣陣列)；外部區間流動性 (ERL) 指舊高低點，內部區間流動性 (IRL) 指 OB 與 FVG，價格永恆在 ERL 與 IRL 之間輸送。當下吸引價格的 PDA 稱為流動性指引 (DOL)，是所有交易決策的核心依據；最佳交易進場 (OTE) 落在 0.62 至 0.79 費氏回撤之間，提供良好的風險報酬比，但必須與其他概念匯流使用。"
+          "description": "任何有意義的擺動高點與擺動低點，都可以劃出一個交易區間：均衡點（EQ）上方是溢價區（Premium），下方是折扣區（Discount）；溢價區優先尋找做空，折扣區優先尋找做多。區間內的 OB、FVG 與流動性統稱為 PDA（Premium Discount Arrays）；ERL（External Range Liquidity）指舊高低點，IRL（Internal Range Liquidity）指區間內的 OB 與 FVG，價格會持續在 ERL 與 IRL 之間尋找流動性。當前最吸引價格前往的 PDA 稱為 DOL（Draw on Liquidity），是制定交易決策的核心依據；OTE（Optimal Trade Entry）通常落在 0.62 至 0.79 的斐波那契回撤區間，具備較好的盈虧比，但必須與其他條件共振使用。"
         },
         "advancedMarketStructure": {
           "title": "進階市場結構",
-          "description": "由上而下分析需在高週期 (HTF) 建立方向偏好 (Bias) 與 DOL，於中週期 (MTF) 辨識交易布局，並於低週期 (LTF) 精修進場 — 每個層級各司其職。三段式模型 PO3 (Power of Three) 是 ICT/SMC 最基礎的概念，包含累積 (Accumulation)、操縱 (Manipulation) 與分配 (Distribution)；在操縱段掃完流動性後，價格會在真實方向快速輸送，標準差 (STDV) -2 至 -2.5 為回撤目標，-3.5 至 -4 則為反轉目標。造市商模型 (MMXM) 描述 HTF IRL 至 ERL 輸送在 LTF 的完整呈現 — 所有 LTF 價格行為最終皆服務於 HTF，當 LTF 價格抵達 HTF PDA 時，LTF 輸送方向將完全反轉。"
+          "description": "自上而下分析需要先在高週期（HTF）建立方向偏向（Bias）與 DOL，再到中週期（MTF）尋找交易機會，最後在低週期（LTF）細化進場位置，每個層級都有不同作用。PO3（Power of Three）是 ICT/SMC 中最基礎的三段式模型，包含吸籌（Accumulation）、誘導（Manipulation）與派發（Distribution）；誘導階段掃掉流動性後，價格通常會朝真正方向快速運行，標準差（STDV）-2 至 -2.5 常作為回撤目標，-3.5 至 -4 常作為反轉目標。Market Maker Model（MMXM）描述 HTF 從 IRL 到 ERL 的運行，如何在 LTF 上完整展開；所有低週期行情最終都服務於高週期目標，當 LTF 價格抵達 HTF PDA 時，LTF 的運行方向往往會完全反轉。"
         },
         "entry": {
           "title": "進場",
-          "description": "進場前必須完成七個步驟：建立明確的多空 Bias、辨識 HTF POI、等待 MTF 流動性掃蕩進入 HTF POI、確認 IRL、ERL 與 DOL、於 LTF 定義 MMXM 位置、在折扣區或溢價區尋找機會，並僅在風險報酬比超過 1:1 時進場。三個核心進場模型分別為 ICT 2022 Model (流動性掃蕩 → MSS → 尊重 FVG 進場)、Silver Bullet 模型 (條件相同但限定於三個特定的 Kill Zone) 以及 Unicorn 模型 (需要 FVG 與 Breaker Block 匯流才進場)。TGIF 模型專屬於週五，利用強方向週後週五傾向回撤週區間 20–30% 的特性 — 需確認極值由週一或週二形成、週二至週四出現三根連續同向 K 棒，然後等待 MSS/CISD 確認才進場。"
+          "description": "進場前需要完成七件事：明確多空 Bias、找出 HTF POI、等待 MTF 流動性掃蕩進入 HTF POI、確認 IRL / ERL / DOL、在 LTF 定位 MMXM、只在折扣區或溢價區尋找機會，並確認盈虧比大於 1:1 後再進場。三種核心進場模型包括 ICT 2022 Model（流動性掃蕩 → MSS → 依據 FVG 進場）、Silver Bullet（同樣條件，但只在三個指定 Kill Zone 內交易），以及 Unicorn Model（需要 FVG 與 Breaker Block 共振）。TGIF 模型只用於週五，利用強趨勢週之後，週五容易回撤週內區間 20–30% 的特性；使用前需確認極值在週一或週二形成，週二到週四出現三根連續同向 K 棒，再等待 MSS/CISD 確認後進場。"
         }
       }
     }

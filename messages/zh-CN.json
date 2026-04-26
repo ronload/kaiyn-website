@@ -1,75 +1,75 @@
 {
   "HomePage": {
     "title": "Kaiyn",
-    "headline": "领先市场，深入Web3",
-    "subtitle": "结识专业加密货币交易社区,与高手一同交流,自信交易。",
+    "headline": "深入 Web3，掌握市场先机",
+    "subtitle": "加入专业加密货币交易社区，和资深交易者交流，带着更充分的信心交易。",
     "joinCommunity": "加入我们的社区",
-    "trustedBy": "3000+ 位用户信赖",
-    "bullishSignal": "看涨讯号",
-    "symbol": "标的",
+    "trustedBy": "已有 3000+ 用户信赖",
+    "bullishSignal": "看涨信号",
+    "symbol": "交易对",
     "direction": "方向",
-    "long": "多",
-    "short": "空",
-    "entry": "进场",
+    "long": "做多",
+    "short": "做空",
+    "entry": "进场点",
     "takeProfit": "止盈",
     "stopLoss": "止损",
     "learnMore": "了解更多",
-    "exchangesTitle": "与顶尖交易所合作",
-    "exchangesDescription": "共同打造卓越社区",
+    "exchangesTitle": "携手领先交易所",
+    "exchangesDescription": "共同打造高质量交易社区",
     "timeline": {
       "badge": "免费加入",
       "title": "如何开始",
-      "subtitle": "与 Kaiyn 一同开始稳定获利",
+      "subtitle": "从 Kaiyn 开始你的稳健获利之旅",
       "steps": {
         "joinCommunity": {
           "title": "加入公开社区",
-          "description": "从加入我们的公开 Telegram 社区开始,与其他交易者交流并掌握市场动态。",
+          "description": "加入我们的公开 Telegram 社区，与其他交易者交流，跟进市场讨论。",
           "cta": {
             "label": "加入社区",
             "url": "kaiyn.org/telegram"
           },
           "card": {
             "name": "Kaiyn Capital",
-            "members": "3,463 位成员 · 14 位在线",
-            "viewButton": "在 Telegram 中打开"
+            "members": "3,463 位成员 · 14 人在线",
+            "viewButton": "在 Telegram 中查看"
           }
         },
         "registerExchange": {
-          "title": "注册合作交易所",
-          "description": "通过我们的专属邀请链接注册合作交易所账户,解锁社区专属福利。",
+          "title": "注册合作交易所账户",
+          "description": "通过专属邀请链接开通合作交易所账户，即可解锁社区权益。",
           "cta1": {
-            "label": "在 <brand>Bitget</brand> 注册账户"
+            "label": "在 <brand>Bitget</brand> 创建账户"
           },
           "cta2": {
-            "label": "在 <brand>Binance</brand> 注册账户"
+            "label": "在 <brand>Binance</brand> 创建账户"
           },
           "card": {
-            "emailLabel": "电子邮箱/手机号码",
-            "emailPlaceholder": "电子邮箱/手机号码",
+            "emailLabel": "邮箱 / 手机号",
+            "emailPlaceholder": "邮箱 / 手机号",
             "passwordLabel": "密码",
-            "passwordPlaceholder": "设置密码",
+            "passwordPlaceholder": "设置登录密码",
             "inviteLabel": "邀请码（可选）",
-            "agreement": "我已阅读并同意《用户协议》和《个人隐私政策》",
+            "agreement": "我已阅读并同意《用户协议》和《隐私政策》",
             "marketing": "我同意接收来自 Bitget 的营销信息",
             "submitButton": "创建账户",
-            "divider": "或通过以下方式登录",
-            "google": "通过 Google 继续",
-            "apple": "通过 Apple 继续",
+            "divider": "或使用以下方式登录",
+            "google": "使用 Google 继续",
+            "apple": "使用 Apple 继续",
             "wallet": "连接钱包",
-            "haveAccount": "已经拥有账户了吗？",
-            "goLogin": "前往登录"
+            "haveAccount": "已有账户？",
+            "goLogin": "登录"
           }
         },
         "kycDeposit": {
-          "title": "完成 KYC 与入金",
-          "description": "于合作交易所完成 KYC 身份验证并进行首次入金,即可开始交易。",
+          "title": "完成 KYC 并入金",
+          "description": "在合作交易所完成 KYC 身份认证并完成首次入金后，即可开始交易。",
           "cta": {
-            "label": "询问如何 KYC 与入金"
+            "label": "询问如何完成 KYC 与入金"
           },
           "card": {
             "title": "发送 USDT",
-            "kycBadge": "KYC 已验证",
-            "network": "TRC20 (Tron 网络)",
+            "kycBadge": "KYC 已认证",
+            "network": "TRC20（Tron 网络）",
             "fromName": "我的钱包",
             "toName": "Bitget",
             "feeLabel": "网络手续费",
@@ -81,7 +81,7 @@
         },
         "contactAdmin": {
           "title": "联系管理员",
-          "description": "联系我们的管理员,获取私密信号群组与专属资源的访问权限。",
+          "description": "联系管理员，开通私人策略群和其他社区专属资源权限。",
           "cta": {
             "label": "联系管理员"
           },
@@ -89,56 +89,56 @@
             "adminName": "Kaiyn Admin",
             "adminStatus": "在线",
             "userMessage": "请问如何免费加入私人策略群？",
-            "adminMessage": "只要提供给我你的交易所 UID 并等待我完成审核即可。"
+            "adminMessage": "只要把你的交易所 UID 发给我，等待审核完成即可。"
           }
         }
       }
     },
     "cards": {
       "telegramSignal": {
-        "title": "Telegram 信号",
-        "description": "即时交易信号通知，领先每一次市场波动。"
+        "title": "Telegram 交易信号",
+        "description": "实时推送交易信号，及时跟上市场变化。"
       },
       "strategyGroup": {
-        "title": "策略社区",
-        "description": "与其他交易者校准方向，获取经验证的进出场策略。"
+        "title": "策略交流群",
+        "description": "与其他交易者校准交易方向，获取经过验证的进出场策略。"
       },
       "tradingTutorial": {
-        "title": "交易教学",
-        "description": "学习 ICT、价格行为等技术，成为专业交易员。"
+        "title": "交易教程",
+        "description": "学习 ICT/SMC、价格行为与实战方法，提升到专业交易水平。"
       },
       "concepts": {
         "marketStructure": {
           "title": "市场结构",
-          "description": "看涨市场结构由连续的更高高点 (HH) 与更高低点 (HL) 组成，看跌市场结构则由更低高点 (LH) 与更低低点 (LL) 组成，分别代表买方主导与卖方主导的市场。当摆动高低点被突破时称为市场结构突破 (MSB/BOS)，代表趋势延续；当最近一根 LL 之前的高点被突破时称为市场结构转换 (MSS/CHOCH)，代表趋势反转。优质的 MSS 必须同时伴随流动性扫荡、显著的位移 (Displacement) 以及失衡区 (Imbalance) 的形成。"
+          "description": "多头市场结构由连续的更高高点（HH）和更高低点（HL）构成；空头市场结构则由更低高点（LH）和更低低点（LL）构成，分别反映买方与卖方占据主导。价格突破关键摆动高点或低点，通常称为市场结构突破（MSB/BOS），代表趋势可能延续；若价格突破最近一个 LL 形成前的高点，则称为市场结构转变（MSS/CHOCH），代表趋势可能反转。高质量的 MSS 通常需要同时出现流动性扫荡、明显位移（Displacement），并形成失衡区（Imbalance）。"
         },
         "liquidity": {
           "title": "流动性",
-          "description": "机构进场需要大量订单撮合，因此摆动高低点与等高等低点 (EQH/EQL) 是最常见的流动性堆积区，聪明钱在此完成与散户的订单流交换。流动性扫荡 (Liquidity Sweep) 指价格突破流动性区后迅速反向回撤，是每一段多空走势的起点，在突破当下追单是错误行为。扫完流动性后的价格输送可分为低阻力流动性奔跑 (LRLR，顺畅输送) 与高阻力流动性奔跑 (HRLR，受阻颠簸)，输送状态改变 (CISD) 则是辨识反转的另一个关键讯号。"
+          "description": "机构建仓需要足够的对手盘，因此摆动高低点与等高 / 等低点（EQH/EQL）往往是最常见的流动性聚集区，聪明钱也常在这些位置完成与散户的订单流交换。流动性扫荡（Liquidity Sweep）指价格突破流动性区域后又快速拉回；这往往是一段多空行情的起点，突破瞬间追单通常风险很高。扫荡之后的价格运行可分为低阻力流动性推进（LRLR，走势顺畅）与高阻力流动性推进（HRLR，走势受阻且反复），而价格交付状态变化（CISD）也是判断反转的重要信号。"
         },
         "imbalance": {
           "title": "失衡",
-          "description": "当聪明钱以大量资金推动剧烈位移时，部分挂单无法被有效成交，形成流动性失衡区，算法未来会引导价格回到此区进行再平衡。在连续三根 K 线中，若第一根与第三根的影线无法完全重叠，中间区域即为公允价值缺口 (FVG)；若 FVG 在未被再平衡前被完全吞噬，则转化为反向公允价值缺口 (IFVG)，意义更强。两个方向相反的 FVG 重叠形成平衡价格区间 (BPR)，价格触及应快速反应；FVG 回测填补不超过 50% 即反转时称为 IOFED，代表市场条件异常强劲。"
+          "description": "当聪明钱用大额资金推动价格快速位移时，部分挂单来不及成交，便会形成流动性失衡区，后续算法通常会引导价格回到该区域完成再平衡。连续三根 K 线中，若第一根与第三根的影线没有完全重叠，中间留下的区域就是公允价值缺口（FVG）；若 FVG 尚未完成回补就被完全吞没，会转化为反向公允价值缺口（IFVG），参考意义更强。两个方向相反的 FVG 重叠时，会形成平衡价格区间（BPR），价格触及后通常应快速反应；若 FVG 回测只回补不超过 50% 就反转，则称为 IOFED，代表市场动能异常强。"
         },
         "supplyAndDemand": {
           "title": "供需",
-          "description": "订单块 (OB) 是机构大规模挂单的区域，定义为显著位移前最后一根反向 K 线；优质 OB 必须同时满足三项条件：流动性扫荡、产生 FVG 的显著位移以及完成 MSS。当 OB 形成 MSS 后又被反向突破时，订单流反转，该区域成为突破块 (Breaker Block)；若 OB 未形成 MSS 即被直接吞噬则成为缓解块 (Mitigation Block)。推进块 (Propulsion Block) 代表聪明钱回测 OB 后再次进攻，价格不应破其中轴 (MT)；拒绝块 (Rejection Block) 与回收块 (Reclaimed Block) 则分别代表强烈的离场意图以及市场结构反转后 OB 的再利用。"
+          "description": "订单块（OB）是机构集中布置大额订单的区域，通常定义为明显位移前最后一根反向 K 线；高质量 OB 需要同时具备三项条件：完成流动性扫荡、出现产生 FVG 的明显位移，以及完成 MSS。若 OB 先形成 MSS，随后又被反向突破，说明订单流反转，该区域会转为 Breaker Block；若 OB 未形成 MSS 就被直接吞没，则会成为 Mitigation Block。Propulsion Block 代表聪明钱回测 OB 后再次推动价格，价格不应有效突破其中点（MT）；Rejection Block 与 Reclaimed Block 分别代表强烈离场意图，以及市场结构反转后 OB 被重新利用。"
         },
         "ipda": {
-          "title": "银行间定价算法",
-          "description": "在 IPDA 主导下，价格输送只存在四种状态：盘整 (Consolidation)、扩张 (Expansion)、回撤 (Retracement) 与反转 (Reversal)，所有价格行为皆源自盘整阶段。盘整时，当折扣区或 SSL 被扫荡可寻找做多机会，溢价区或 BSL 被扫荡则寻找做空机会；扩张阶段代表造市商重新定价，回撤阶段则是价格回补 FVG 后再沿着输送方向延续。反转必须等待价格抵达 HTF POI 并由 MSS/CISD 确认 — 在价格未到达关键高周期位阶前尝试交易趋势反转是低胜率行为。"
+          "title": "银行间价格传递算法",
+          "description": "在 IPDA 框架下，价格运行只有四种状态：盘整（Consolidation）、扩张（Expansion）、回撤（Retracement）与反转（Reversal），所有行情都从区间整理开始。盘整阶段中，折扣区或 SSL 被扫荡后可寻找做多机会，溢价区或 BSL 被扫荡后则可寻找做空机会；扩张阶段代表做市商重新定价，回撤阶段则是价格回补 FVG 后继续沿原方向运行。反转交易必须等待价格到达 HTF POI，并用 MSS/CISD 确认；在到达高周期关键位之前抢反转，胜率通常很低。"
         },
         "dealingRange": {
           "title": "交易区间",
-          "description": "任何有意义的摆动高点与低点都可定义一个交易区间：均衡中轴 (EQ) 之上为溢价区 (Premium)，之下为折扣区 (Discount) — 在溢价区寻找做空，在折扣区寻找做多。区间内的 OB、FVG 与流动性统称 PDA (溢价折扣阵列)；外部区间流动性 (ERL) 指旧高低点，内部区间流动性 (IRL) 指 OB 与 FVG，价格永恒在 ERL 与 IRL 之间输送。当下吸引价格的 PDA 称为流动性指引 (DOL)，是所有交易决策的核心依据；最佳交易进场 (OTE) 落在 0.62 至 0.79 斐波那契回撤之间，提供良好的风险报酬比，但必须与其他概念汇流使用。"
+          "description": "任何有意义的摆动高点与摆动低点，都可以划出一个交易区间：均衡点（EQ）上方是溢价区（Premium），下方是折扣区（Discount）；溢价区优先寻找做空，折扣区优先寻找做多。区间内的 OB、FVG 与流动性统称为 PDA（Premium Discount Arrays）；ERL（External Range Liquidity）指旧高低点，IRL（Internal Range Liquidity）指区间内的 OB 与 FVG，价格会持续在 ERL 与 IRL 之间寻找流动性。当前最吸引价格前往的 PDA 称为 DOL（Draw on Liquidity），是制定交易决策的核心依据；OTE（Optimal Trade Entry）通常落在 0.62 至 0.79 的斐波那契回撤区间，具备较好的盈亏比，但必须与其他条件共振使用。"
         },
         "advancedMarketStructure": {
           "title": "进阶市场结构",
-          "description": "由上而下分析需在高周期 (HTF) 建立方向偏好 (Bias) 与 DOL，于中周期 (MTF) 辨识交易布局，并于低周期 (LTF) 精修进场 — 每个层级各司其职。三段式模型 PO3 (Power of Three) 是 ICT/SMC 最基础的概念，包含累积 (Accumulation)、操纵 (Manipulation) 与分配 (Distribution)；在操纵段扫完流动性后，价格会在真实方向快速输送，标准差 (STDV) -2 至 -2.5 为回撤目标，-3.5 至 -4 则为反转目标。造市商模型 (MMXM) 描述 HTF IRL 至 ERL 输送在 LTF 的完整呈现 — 所有 LTF 价格行为最终皆服务于 HTF，当 LTF 价格抵达 HTF PDA 时，LTF 输送方向将完全反转。"
+          "description": "自上而下分析需要先在高周期（HTF）建立方向偏向（Bias）与 DOL，再到中周期（MTF）寻找交易机会，最后在低周期（LTF）细化进场位置，每个层级都有不同作用。PO3（Power of Three）是 ICT/SMC 中最基础的三段式模型，包含吸筹（Accumulation）、诱导（Manipulation）与派发（Distribution）；诱导阶段扫掉流动性后，价格通常会朝真正方向快速运行，标准差（STDV）-2 至 -2.5 常作为回撤目标，-3.5 至 -4 常作为反转目标。Market Maker Model（MMXM）描述 HTF 从 IRL 到 ERL 的运行，如何在 LTF 上完整展开；所有低周期行情最终都服务于高周期目标，当 LTF 价格抵达 HTF PDA 时，LTF 的运行方向往往会完全反转。"
         },
         "entry": {
           "title": "进场",
-          "description": "进场前必须完成七个步骤：建立明确的多空 Bias、辨识 HTF POI、等待 MTF 流动性扫荡进入 HTF POI、确认 IRL、ERL 与 DOL、于 LTF 定义 MMXM 位置、在折扣区或溢价区寻找机会，并仅在风险报酬比超过 1:1 时进场。三个核心进场模型分别为 ICT 2022 Model (流动性扫荡 → MSS → 尊重 FVG 进场)、Silver Bullet 模型 (条件相同但限定于三个特定的 Kill Zone) 以及 Unicorn 模型 (需要 FVG 与 Breaker Block 汇流才进场)。TGIF 模型专属于周五，利用强方向周后周五倾向回撤周区间 20–30% 的特性 — 需确认极值由周一或周二形成、周二至周四出现三根连续同向 K 线，然后等待 MSS/CISD 确认才进场。"
+          "description": "进场前需要完成七件事：明确多空 Bias、找出 HTF POI、等待 MTF 流动性扫荡进入 HTF POI、确认 IRL / ERL / DOL、在 LTF 定位 MMXM、只在折扣区或溢价区寻找机会，并确认盈亏比大于 1:1 后再进场。三种核心进场模型包括 ICT 2022 Model（流动性扫荡 → MSS → 依托 FVG 进场）、Silver Bullet（同样条件，但只在三个指定 Kill Zone 内交易），以及 Unicorn Model（需要 FVG 与 Breaker Block 共振）。TGIF 模型只用于周五，利用强趋势周之后，周五容易回撤周内区间 20–30% 的特性；使用前需确认极值在周一或周二形成，周二到周四出现三根连续同向 K 线，再等待 MSS/CISD 确认后进场。"
         }
       }
     }
