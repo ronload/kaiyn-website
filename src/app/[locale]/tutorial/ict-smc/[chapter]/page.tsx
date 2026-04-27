@@ -41,8 +41,8 @@ export default async function ChapterPage({ params }: Props) {
   const headings = await extractHeadings(body);
 
   return (
-    <div className="grid grid-cols-1 gap-x-12 lg:grid-cols-[minmax(0,1fr)_14rem] xl:gap-x-16">
-      <div className="min-w-0 max-w-3xl">
+    <div className="xl:grid xl:grid-cols-[minmax(0,1fr)_14rem] xl:gap-x-12">
+      <div className="mx-auto min-w-0 w-full max-w-3xl">
         <article>
           <h1 className="text-balance font-semibold text-4xl tracking-tight sm:text-5xl md:text-6xl">
             {title}
@@ -53,7 +53,7 @@ export default async function ChapterPage({ params }: Props) {
         </article>
         <ChapterPagination prev={prev} next={next} />
       </div>
-      <aside className="hidden lg:sticky lg:top-24 lg:block lg:h-[calc(100vh-7rem)] lg:overflow-y-auto">
+      <aside className="hidden xl:sticky xl:top-24 xl:block xl:max-h-[calc(100dvh-7rem)] xl:self-start xl:overflow-y-auto">
         <OnThisPage headings={headings} />
       </aside>
     </div>
