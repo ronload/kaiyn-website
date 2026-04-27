@@ -10,8 +10,8 @@ import {
   getIctSmcChapterSlugs,
   isIctSmcChapterSlug,
 } from "@/lib/tutorial/chapters";
-import { extractHeadings } from "@/lib/tutorial/extract-headings";
 import { loadIctSmcChapter } from "@/lib/tutorial/load-chapter";
+import { getChapterToc } from "@/lib/tutorial/table-of-contents";
 
 type Props = {
   params: Promise<{ locale: string; chapter: string }>;
@@ -38,7 +38,7 @@ export default async function ChapterPage({ params }: Props) {
 
   const { title, body } = await loadIctSmcChapter(chapter);
   const { prev, next } = getIctSmcChapterNeighbors(chapter);
-  const headings = await extractHeadings(body);
+  const toc = getChapterToc(body);
 
   return (
     <div className="xl:grid xl:grid-cols-[minmax(0,1fr)_14rem] xl:gap-x-12">
@@ -53,9 +53,7 @@ export default async function ChapterPage({ params }: Props) {
         </article>
         <ChapterPagination prev={prev} next={next} />
       </div>
-      <aside className="hidden xl:sticky xl:top-36 xl:block xl:max-h-[calc(100dvh-10rem)] xl:self-start xl:overflow-y-auto">
-        <OnThisPage headings={headings} />
-      </aside>
+      <OnThisPage toc={toc} />
     </div>
   );
 }
