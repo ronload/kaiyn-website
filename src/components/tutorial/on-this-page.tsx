@@ -292,7 +292,7 @@ export function OnThisPage({ toc }: Props) {
   return (
     <aside
       ref={containerRef}
-      className="hidden xl:sticky xl:top-36 xl:block xl:max-h-[calc(100dvh-10rem)] xl:self-start xl:overflow-y-auto"
+      className="hidden xl:sticky xl:top-36 xl:block xl:max-h-[calc(100dvh-10rem)] xl:self-start xl:overflow-y-auto xl:[scrollbar-width:none] xl:[&::-webkit-scrollbar]:hidden"
     >
       <nav aria-label={t("tableOfContents")}>
         <p className="mb-3 font-medium text-foreground text-sm">
