@@ -22,7 +22,7 @@ function ExchangeLogo({ name }: { name: string }) {
   return (
     // biome-ignore lint/performance/noImgElement: logos have varied aspect ratios; next/image's required width/height props trigger spurious "width or height modified" warnings here.
     <img
-      src={`/img/exchange-logo/${name}.png`}
+      src={`/img/exchange-logo/wordmark/${name}.png`}
       alt={name}
       className="h-8 w-auto opacity-70 brightness-0 invert"
     />
