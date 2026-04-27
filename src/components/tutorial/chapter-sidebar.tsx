@@ -30,7 +30,7 @@ export function ChapterSidebar({ chapters }: Props) {
     <Accordion
       multiple
       defaultValue={defaultValue}
-      className="rounded-none border-0"
+      className="w-full gap-1 overflow-visible rounded-none border-0"
     >
       {chapters.map((chapter) => {
         const isActive = chapter.slug === activeSlug;
@@ -39,30 +39,27 @@ export function ChapterSidebar({ chapters }: Props) {
           <AccordionItem
             key={chapter.slug}
             value={chapter.slug}
-            data-active={isActive || undefined}
-            className={cn(
-              "border-0 not-last:border-b-0",
-              isActive && "data-active:bg-muted/40",
-            )}
+            className="border-0 not-last:border-b-0 data-open:bg-transparent"
           >
             <AccordionTrigger
               className={cn(
-                "px-3 py-2.5",
-                isActive && "font-semibold text-foreground",
+                "gap-2 rounded-md border border-transparent p-2 text-[0.8rem] font-medium text-muted-foreground transition-colors hover:bg-accent/40 hover:no-underline aria-expanded:text-foreground",
+                isActive &&
+                  "border-accent bg-accent text-foreground hover:bg-accent",
               )}
             >
               <span className="text-pretty leading-snug">
                 {padded}. {chapter.title}
               </span>
             </AccordionTrigger>
-            <AccordionContent className="px-0 pb-2">
+            <AccordionContent className="pt-1 pb-1">
               {chapter.sections.length === 0 ? null : (
-                <ul className="space-y-px">
+                <ul className="-ml-2 flex translate-x-px flex-col gap-0.5 border-l border-border pl-2 py-0.5">
                   {chapter.sections.map((section) => (
                     <li key={section.url}>
                       <Link
                         href={`/tutorial/ict-smc/${chapter.slug}${section.url}`}
-                        className="block border-border border-l-2 px-3 py-1.5 pl-6 text-muted-foreground text-sm transition-colors hover:border-foreground hover:text-foreground"
+                        className="block -translate-x-px rounded-md border border-transparent px-2 py-1 text-[0.8rem] font-medium text-muted-foreground no-underline! transition-colors hover:bg-accent/40 hover:text-foreground"
                       >
                         {section.title}
                       </Link>
