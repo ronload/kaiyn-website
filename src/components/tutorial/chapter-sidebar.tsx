@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import {
   Accordion,
   AccordionContent,
@@ -23,11 +24,12 @@ function deriveActiveSlug(pathname: string | null): string | undefined {
 export function ChapterSidebar({ chapters }: Props) {
   const pathname = usePathname();
   const activeSlug = deriveActiveSlug(pathname);
+  const [defaultValue] = useState(() => (activeSlug ? [activeSlug] : []));
 
   return (
     <Accordion
       multiple
-      defaultValue={activeSlug ? [activeSlug] : []}
+      defaultValue={defaultValue}
       className="rounded-none border-0"
     >
       {chapters.map((chapter) => {
@@ -57,12 +59,12 @@ export function ChapterSidebar({ chapters }: Props) {
               {chapter.sections.length === 0 ? null : (
                 <ul className="space-y-px">
                   {chapter.sections.map((section) => (
-                    <li key={section.id}>
+                    <li key={section.url}>
                       <Link
-                        href={`/tutorial/ict-smc/${chapter.slug}#${section.id}`}
+                        href={`/tutorial/ict-smc/${chapter.slug}${section.url}`}
                         className="block border-border border-l-2 px-3 py-1.5 pl-6 text-muted-foreground text-sm transition-colors hover:border-foreground hover:text-foreground"
                       >
-                        {section.text}
+                        {section.title}
                       </Link>
                     </li>
                   ))}

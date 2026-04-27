@@ -1,13 +1,10 @@
 import "server-only";
 import { type ChapterRecord, ICT_SMC_CHAPTERS } from "@/lib/tutorial/chapters";
-import {
-  extractHeadings,
-  type HeadingNode,
-} from "@/lib/tutorial/extract-headings";
 import { loadIctSmcChapter } from "@/lib/tutorial/load-chapter";
+import { getChapterToc, type TocItem } from "@/lib/tutorial/table-of-contents";
 
 export type ChapterMetaWithSections = ChapterRecord & {
-  sections: HeadingNode[];
+  sections: TocItem[];
 };
 
 export async function loadAllChaptersMetaWithSections(): Promise<
@@ -16,10 +13,7 @@ export async function loadAllChaptersMetaWithSections(): Promise<
   return Promise.all(
     ICT_SMC_CHAPTERS.map(async (record) => {
       const { body } = await loadIctSmcChapter(record.slug);
-      const headings = await extractHeadings(body);
-      const sections = headings
-        .filter((h) => h.depth === 2)
-        .map(({ children: _children, ...rest }) => rest);
+      const sections = getChapterToc(body).filter((item) => item.depth === 2);
       return { ...record, sections };
     }),
   );
