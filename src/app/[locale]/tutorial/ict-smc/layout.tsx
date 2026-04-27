@@ -20,7 +20,7 @@ export default async function IctSmcLayout({ children, params }: Props) {
       <Container variant="wide" className="pt-32 pb-16 md:pt-36 md:pb-24">
         <ChapterSidebarMobile chapters={chapters} className="mb-6 lg:hidden" />
         <div className="grid grid-cols-1 gap-x-10 lg:grid-cols-[16rem_minmax(0,1fr)] xl:gap-x-12">
-          <aside className="hidden lg:sticky lg:top-24 lg:block lg:max-h-[calc(100dvh-7rem)] lg:self-start lg:overflow-y-auto">
+          <aside className="hidden lg:sticky lg:top-36 lg:block lg:max-h-[calc(100dvh-10rem)] lg:self-start lg:overflow-y-auto">
             <ChapterSidebar chapters={chapters} />
           </aside>
           <div className="min-w-0">{children}</div>

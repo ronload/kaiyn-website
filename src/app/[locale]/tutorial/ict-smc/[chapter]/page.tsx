@@ -53,7 +53,7 @@ export default async function ChapterPage({ params }: Props) {
         </article>
         <ChapterPagination prev={prev} next={next} />
       </div>
-      <aside className="hidden xl:sticky xl:top-24 xl:block xl:max-h-[calc(100dvh-7rem)] xl:self-start xl:overflow-y-auto">
+      <aside className="hidden xl:sticky xl:top-36 xl:block xl:max-h-[calc(100dvh-10rem)] xl:self-start xl:overflow-y-auto">
         <OnThisPage headings={headings} />
       </aside>
     </div>
