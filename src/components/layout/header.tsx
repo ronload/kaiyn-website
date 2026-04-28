@@ -68,6 +68,14 @@ export function Header() {
                 {t("tutorial")}
               </NavigationMenuLink>
             </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink
+                className={navigationMenuTriggerStyle()}
+                render={<Link href="/tool" />}
+              >
+                {t("tool")}
+              </NavigationMenuLink>
+            </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
         <LanguageSwitcher />
