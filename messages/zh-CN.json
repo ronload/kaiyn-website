@@ -1,7 +1,8 @@
 {
   "Nav": {
     "start": "开始",
-    "tutorial": "教学"
+    "tutorial": "教学",
+    "tool": "工具"
   },
   "TutorialPage": {
     "title": "交易教学",
@@ -12,6 +13,81 @@
         "description": "完整解析 Inner Circle Trader 与 Smart Money Concepts，从市场结构到进场模型一次掌握。",
         "cta": "开始阅读"
       }
+    }
+  },
+  "ToolPage": {
+    "title": "交易工具",
+    "description": "提供实用的计算器与小工具，辅助你的日常交易流程。",
+    "cards": {
+      "positionCalculator": {
+        "title": "仓位大小计算器",
+        "description": "计算仓位、风险与止盈盈亏，可自定义交易或粘贴社区信号自动解析。",
+        "cta": "打开计算器"
+      }
+    }
+  },
+  "PositionCalculator": {
+    "modes": {
+      "regular": "常规",
+      "community": "社区",
+      "ariaGroupLabel": "仓位计算器模式切换",
+      "ariaSwitchTo": "切换到 {mode} 模式"
+    },
+    "regular": {
+      "title": "仓位大小计算器",
+      "fields": {
+        "dollarRisk": {
+          "label": "风险金额（USDT）",
+          "description": "本次交易可承担的最大亏损。",
+          "placeholder": "100.00"
+        },
+        "entryPrice": {
+          "label": "进场价",
+          "description": "你计划进场的价格。",
+          "placeholder": "50000.00"
+        },
+        "stopLoss": {
+          "label": "止损价",
+          "description": "用于控制亏损的离场价格。",
+          "placeholder": "48000.00"
+        }
+      }
+    },
+    "community": {
+      "title": "社区策略计算器",
+      "fields": {
+        "dollarRisk": {
+          "label": "风险金额（USDT）",
+          "description": "本次交易可承担的最大亏损。",
+          "placeholder": "100.00"
+        },
+        "strategyText": {
+          "label": "策略内容",
+          "description": "请将社区策略粘贴到上方。",
+          "placeholder": "示例：\n标的：BTC\n方向：多\n进场：50000\n止盈：52000/55000\n止损：48000"
+        }
+      },
+      "errors": {
+        "parse": "无法解析策略格式，请确认格式正确。"
+      }
+    },
+    "result": {
+      "headingRegular": "{direction}仓位",
+      "headingCommunity": "{direction}仓位 — {symbol}",
+      "entryPrice": "进场价",
+      "positionSize": "仓位大小",
+      "positionSizeValue": "${usdt} USDT（{units} 单位）",
+      "riskPercentage": "风险百分比",
+      "maxLoss": "最大亏损",
+      "takeProfitLevels": "止盈分级",
+      "takeProfitItem": "TP{n}：{price} → +${profit} USDT"
+    },
+    "directions": {
+      "long": "多头",
+      "short": "空头"
+    },
+    "actions": {
+      "clear": "清除"
     }
   },
   "TutorialChapter": {

@@ -1,7 +1,8 @@
 {
   "Nav": {
     "start": "Start",
-    "tutorial": "Tutorial"
+    "tutorial": "Tutorial",
+    "tool": "Tool"
   },
   "TutorialPage": {
     "title": "Trading Tutorial",
@@ -12,6 +13,81 @@
         "description": "A complete walk-through of Inner Circle Trader and Smart Money Concepts, from market structure to entry models.",
         "cta": "Start reading"
       }
+    }
+  },
+  "ToolPage": {
+    "title": "Trading Tools",
+    "description": "Practical calculators and utilities to support your day-to-day trading workflow.",
+    "cards": {
+      "positionCalculator": {
+        "title": "Position Size Calculator",
+        "description": "Compute position size, risk, and take-profit PnL for self-defined trades or pasted community signals.",
+        "cta": "Open calculator"
+      }
+    }
+  },
+  "PositionCalculator": {
+    "modes": {
+      "regular": "Regular",
+      "community": "Community",
+      "ariaGroupLabel": "Position calculator mode selector",
+      "ariaSwitchTo": "Switch to {mode} mode"
+    },
+    "regular": {
+      "title": "Position Size Calculator",
+      "fields": {
+        "dollarRisk": {
+          "label": "Dollar Risk (USDT)",
+          "description": "Maximum risk amount for this trade.",
+          "placeholder": "100.00"
+        },
+        "entryPrice": {
+          "label": "Entry Price",
+          "description": "The price at which you plan to enter the trade.",
+          "placeholder": "50000.00"
+        },
+        "stopLoss": {
+          "label": "Stop Loss",
+          "description": "The price at which you'll exit the trade to limit losses.",
+          "placeholder": "48000.00"
+        }
+      }
+    },
+    "community": {
+      "title": "Community Strategy Calculator",
+      "fields": {
+        "dollarRisk": {
+          "label": "Dollar Risk (USDT)",
+          "description": "Maximum risk amount for this trade.",
+          "placeholder": "100.00"
+        },
+        "strategyText": {
+          "label": "Strategy Details",
+          "description": "Paste your community strategy in the field above.",
+          "placeholder": "e.g.\n标的：BTC\n方向：多\n进场：50000\n止盈：52000/55000\n止损：48000"
+        }
+      },
+      "errors": {
+        "parse": "Unable to parse the strategy. Please confirm the format."
+      }
+    },
+    "result": {
+      "headingRegular": "{direction} Position",
+      "headingCommunity": "{direction} Position — {symbol}",
+      "entryPrice": "Entry Price",
+      "positionSize": "Position Size",
+      "positionSizeValue": "${usdt} USDT ({units} units)",
+      "riskPercentage": "Risk Percentage",
+      "maxLoss": "Max Loss",
+      "takeProfitLevels": "Take Profit Levels",
+      "takeProfitItem": "TP{n}: {price} → +${profit} USDT"
+    },
+    "directions": {
+      "long": "Long",
+      "short": "Short"
+    },
+    "actions": {
+      "clear": "Clear"
     }
   },
   "TutorialChapter": {
