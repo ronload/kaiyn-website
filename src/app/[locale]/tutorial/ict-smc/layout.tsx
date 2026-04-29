@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { Container } from "@/components/layout/container";
 import { ChapterSidebar } from "@/components/tutorial/chapter-sidebar";
 import { ChapterSidebarMobile } from "@/components/tutorial/chapter-sidebar-mobile";
+import type { Locale } from "@/lib/tutorial/chapters";
 import { loadAllChaptersMetaWithSections } from "@/lib/tutorial/load-all-chapters-meta";
 
 type Props = {
@@ -13,7 +14,7 @@ type Props = {
 export default async function IctSmcLayout({ children, params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const chapters = await loadAllChaptersMetaWithSections();
+  const chapters = await loadAllChaptersMetaWithSections(locale as Locale);
 
   return (
     <main>
