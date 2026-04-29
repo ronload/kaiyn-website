@@ -31,7 +31,7 @@ export function ModeSwitcher({
     if (!disabled && next !== mode) onModeChange(next);
   };
 
-  const handleKeyDown = (event: KeyboardEvent<HTMLFieldSetElement>) => {
+  const handleKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
     if (disabled) return;
     const i = MODES.indexOf(mode);
     let next = i;
@@ -61,9 +61,10 @@ export function ModeSwitcher({
   };
 
   return (
-    <fieldset
+    <div
+      role="radiogroup"
       aria-label={t("ariaGroupLabel")}
-      disabled={disabled}
+      aria-disabled={disabled || undefined}
       onKeyDown={handleKeyDown}
       tabIndex={disabled ? -1 : 0}
       className={cn(
@@ -99,6 +100,6 @@ export function ModeSwitcher({
           {labels[option]}
         </button>
       ))}
-    </fieldset>
+    </div>
   );
 }
