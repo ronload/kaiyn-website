@@ -9,6 +9,7 @@ import {
   getIctSmcChapterNeighbors,
   getIctSmcChapterSlugs,
   isIctSmcChapterSlug,
+  type Locale,
 } from "@/lib/tutorial/chapters";
 import { loadIctSmcChapter } from "@/lib/tutorial/load-chapter";
 import { getChapterToc } from "@/lib/tutorial/table-of-contents";
@@ -24,9 +25,9 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { chapter } = await params;
+  const { locale, chapter } = await params;
   if (!isIctSmcChapterSlug(chapter)) return {};
-  const { title } = await loadIctSmcChapter(chapter);
+  const { title } = await loadIctSmcChapter(chapter, locale as Locale);
   return { title: `${title} · Kaiyn` };
 }
 
@@ -36,8 +37,8 @@ export default async function ChapterPage({ params }: Props) {
 
   if (!isIctSmcChapterSlug(chapter)) notFound();
 
-  const { title, body } = await loadIctSmcChapter(chapter);
-  const { prev, next } = getIctSmcChapterNeighbors(chapter);
+  const { title, body } = await loadIctSmcChapter(chapter, locale as Locale);
+  const { prev, next } = getIctSmcChapterNeighbors(chapter, locale as Locale);
   const toc = getChapterToc(body);
 
   return (
@@ -48,7 +49,7 @@ export default async function ChapterPage({ params }: Props) {
             {title}
           </h1>
           <div className="mt-8">
-            <Markdown lang="zh-CN">{body}</Markdown>
+            <Markdown lang={locale}>{body}</Markdown>
           </div>
         </article>
         <ChapterPagination prev={prev} next={next} />

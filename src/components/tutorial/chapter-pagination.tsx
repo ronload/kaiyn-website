@@ -1,12 +1,12 @@
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import type { ChapterRecord } from "@/lib/tutorial/chapters";
+import type { LocalizedChapter } from "@/lib/tutorial/chapters";
 import { cn } from "@/lib/utils";
 
 type Props = {
-  prev?: ChapterRecord;
-  next?: ChapterRecord;
+  prev?: LocalizedChapter;
+  next?: LocalizedChapter;
 };
 
 const cardClass =
