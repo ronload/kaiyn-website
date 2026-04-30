@@ -3,12 +3,11 @@
 import { AvatarCircles } from "@/components/ui/avatar-circles";
 
 const avatars = [
-  { imageUrl: "https://i.pravatar.cc/150?img=12", profileUrl: "#" },
-  { imageUrl: "https://i.pravatar.cc/150?img=32", profileUrl: "#" },
-  { imageUrl: "https://i.pravatar.cc/150?img=47", profileUrl: "#" },
-  { imageUrl: "https://i.pravatar.cc/150?img=68", profileUrl: "#" },
-  { imageUrl: "https://i.pravatar.cc/150?img=5", profileUrl: "#" },
-  { imageUrl: "https://i.pravatar.cc/150?img=26", profileUrl: "#" },
+  { imageUrl: "/img/avatars/avatar-1.jpg", profileUrl: "#" },
+  { imageUrl: "/img/avatars/avatar-2.jpg", profileUrl: "#" },
+  { imageUrl: "/img/avatars/avatar-3.jpg", profileUrl: "#" },
+  { imageUrl: "/img/avatars/avatar-4.jpg", profileUrl: "#" },
+  { imageUrl: "/img/avatars/avatar-5.jpg", profileUrl: "#" },
 ];
 
 export function CommunityAvatars() {
